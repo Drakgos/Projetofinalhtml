@@ -1,0 +1,14 @@
+Planeador de Refeições Semanais / Livro de Receitas Inteligente
+Um site onde o utilizador pode explorar receitas e montar um menu para a semana.
+
+Os Dados no Array: Cada objeto representa uma receita: id, nome, categoria (Pequeno-Almoço, Almoço, Jantar, Sobremesa), tempoPreparo (em minutos), dificuldade, ingredientes (um array de strings), instrucoes (outro array de strings) e imagem.
+
+Dinâmica com JavaScript:
+
+A página exibe os cards das receitas. O utilizador pode filtrar por categoria ou por tempo de preparo (ex: receitas em menos de 30 minutos).
+
+Podes criar um botão "Adicionar ao Menu Semanal". Ao clicar, o JS adiciona essa receita a um container lateral que representa os dias da semana (Segunda, Terça, etc.).
+
+O bónus dinâmico: Um botão "Gerar Lista de Compras" que junta todos os ingredientes das receitas selecionadas num único array, remove os duplicados e exibe uma lista de texto para o utilizador.
+
+Design Responsivo: No computador, a lista de receitas fica ao centro e o menu semanal na barra lateral. No telemóvel, o menu semanal recolhe para uma aba inferior ou topo da página.
